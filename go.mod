@@ -1,9 +1,8 @@
-module github.com/rxedu/go-slack-file-bot/v1
+module github.com/rxedu/go-slack-file-bot
 
 go 1.19
 
 require (
-	github.com/makenew/gomodule v1.0.3
 	github.com/slack-go/slack v0.11.2
 )
 
