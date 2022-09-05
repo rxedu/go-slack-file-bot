@@ -7,5 +7,8 @@ import (
 )
 
 func main() {
-	goslackfilebot.StartBot(os.Getenv("SLACK_BOT_TOKEN"), os.Getenv("SLACK_CHANNEL_ID"))
+	fileName := os.Args[1]
+	goslackfilebot.StartBot(os.Getenv("SLACK_BOT_TOKEN"),
+		os.Getenv("SLACK_CHANNEL_ID"),
+		fileName)
 }
